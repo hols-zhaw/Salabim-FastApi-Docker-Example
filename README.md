@@ -46,7 +46,7 @@ source .venv/bin/activate
 #### For Windows:
 
 ```bash
-python -m .venv .venv
+python -m venv .venv
 .venv\Scripts\activate
 ```
 
@@ -54,7 +54,7 @@ python -m .venv .venv
 
 Install the required Python libraries:
 ```bash
-pip install --upgrade pip
+python -m pip install -U pip
 pip install -r requirements.txt
 ```
 
